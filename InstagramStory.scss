@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(0,208,255);
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+}
+
+#card{
+    margin: 12% 37%;
+    height: 530px;
+    width: 320px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+#storiyan{
+height: 100px;
+width: 100%;
+border-radius: 10px;
+border-bottom: 1px solid #dadada;
+padding: 15px;
+
+white-space: nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.time{
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: flex-end;
+   
+}
+
+.time i{
+    font-size: 15px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 1%;
+}
+
+.time h6 {
+    margin-right: 60%;
+    padding-left: -2%;
+}
+
+
+.insta h4{
+   margin-right: 60%;
+}
+
+
+.insta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+    
+    // justify-content: space-between;
+}
+.insta i{
+// text-align: right;
+padding-right: 2%;
+// align-items: flex-end;
+
+}
+
+
+
+
+.story{
+   border: 3px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    // margin: 4px 4px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    // border-radius: 50%;
+    object-position: center;
+}
+
+.img img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    // border-radius: 50%;
+    // object-position: center;
+}
+
+
+#card h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: -4%;
+    display: flex;
+        // style="font-family: cursive; font-size: 19px; color: black; position:absolute; padding-bottom: 2%; padding-left: 1%; "
+    }
+    
+    #card h6{
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+    
+
+
+
+.newIcon{
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.newIcon img{
+    padding-top: -2%;
+width: 22px;
+padding: 2px;
+    border-radius: 50%;
+}
+
+
+#fullscreen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
